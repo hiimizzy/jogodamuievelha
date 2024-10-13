@@ -5,32 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="kutomi1.ico" type="image/x-icon">
 </head>
 <body>
-    <main>
-        <h1>Jogo da Velha</h1>
-
-        <div id="dvmenu">
-            <div id="quemcomeca"></div>
-            <button onclick="quemComeca">Jogar</button>
+    <div id="gameContainer">
+        <h1>Jogo da velha</h1>
+        <div id="cellContainer">
+            <div  cellIndex="1" class="cell">x</div>
+            <div cellIndex="2" class="cell">o</div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5 " class="cell"></div>
+            <div cellndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+            <div cellIndex="9" class="cell"></div>
         </div>
-        
-        <div id="game">
-            <div><button id="1" class="" onclick=""></button></div>
-            <div><button id="2" class="" onclick=" "></button></div>
-            <div><button id="3" class="" onclick ></button></div>
-            <div><button id="4" class="" onclick=" "></button></div>
-            <div><button id="5" class="" onclick</button></div>
-            <div><button id="6" class="" onclick=""></button></div>
-            <div><button  id="7" class="" onclick=""></button></div>
-            <div><button id="8" class="" onclick=" "></button></div>
-            <div><button id="9" class="" onclick=""></button></div>
-        </div>
-        <h2 class="currentPlayer"></h2>
-
-
-    </main>
-    <script src="script.js"></script>
+        <h2 id="text"></h2>
+        <button id="recomecar">Recomeçar</button>
+    </div>
 </body>
 </html>
